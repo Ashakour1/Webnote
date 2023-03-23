@@ -36,7 +36,7 @@
 
             $delete = "delete.php?" . "&id=" . $data["ID"];
 
-            $htmldata .= '<a href ="'.$delete.'" class="icon">delete</a>';
+            $htmldata .= '<a href ="'.$delete.'" class="icon" style=" top:90%; background-color: black; width:80px; color:white; margin-left: 200px;text-decoration:none; border:1px solid black; border-radius : 12px;">delete</a>';
 
             $htmldata .= "</div>";
 
